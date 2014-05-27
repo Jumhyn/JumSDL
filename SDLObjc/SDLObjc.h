@@ -7,7 +7,6 @@
 //
 
 #import <Foundation/Foundation.h>
-
-@interface SDLObjc : NSObject
-
-@end
+#import "JumWindow.h"
+#import "JumRenderer.h"
+#import "JumSurface.h"

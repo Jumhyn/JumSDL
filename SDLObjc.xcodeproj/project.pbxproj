@@ -9,12 +9,21 @@
 /* Begin PBXBuildFile section */
 		B6E2CE941933E5670077AF80 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6E2CE931933E5670077AF80 /* Cocoa.framework */; };
 		B6E2CE9E1933E5670077AF80 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B6E2CE9C1933E5670077AF80 /* InfoPlist.strings */; };
-		B6E2CEA21933E5670077AF80 /* SDLObjc.m in Sources */ = {isa = PBXBuildFile; fileRef = B6E2CEA11933E5670077AF80 /* SDLObjc.m */; };
 		B6E2CEA91933E5670077AF80 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6E2CEA81933E5670077AF80 /* XCTest.framework */; };
 		B6E2CEAA1933E5670077AF80 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6E2CE931933E5670077AF80 /* Cocoa.framework */; };
 		B6E2CEAD1933E5670077AF80 /* SDLObjc.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6E2CE901933E5670077AF80 /* SDLObjc.framework */; };
 		B6E2CEB31933E5670077AF80 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B6E2CEB11933E5670077AF80 /* InfoPlist.strings */; };
 		B6E2CEB51933E5670077AF80 /* SDLObjcTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B6E2CEB41933E5670077AF80 /* SDLObjcTests.m */; };
+		B6E2CEC01933F15C0077AF80 /* JumWindow.h in Headers */ = {isa = PBXBuildFile; fileRef = B6E2CEBE1933F15C0077AF80 /* JumWindow.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B6E2CEC11933F15C0077AF80 /* JumWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = B6E2CEBF1933F15C0077AF80 /* JumWindow.m */; };
+		B6E2CEC31933F18E0077AF80 /* SDL2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6E2CEC21933F18E0077AF80 /* SDL2.framework */; };
+		B6E2CEC61933F30B0077AF80 /* JumRenderer.h in Headers */ = {isa = PBXBuildFile; fileRef = B6E2CEC41933F30B0077AF80 /* JumRenderer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B6E2CEC71933F30B0077AF80 /* JumRenderer.m in Sources */ = {isa = PBXBuildFile; fileRef = B6E2CEC51933F30B0077AF80 /* JumRenderer.m */; };
+		B6E2CECA1934028E0077AF80 /* JumSurface.h in Headers */ = {isa = PBXBuildFile; fileRef = B6E2CEC81934028E0077AF80 /* JumSurface.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B6E2CECB1934028E0077AF80 /* JumSurface.m in Sources */ = {isa = PBXBuildFile; fileRef = B6E2CEC91934028E0077AF80 /* JumSurface.m */; };
+		B6E2CEF719340E340077AF80 /* JumTexture.h in Headers */ = {isa = PBXBuildFile; fileRef = B6E2CEF519340E340077AF80 /* JumTexture.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B6E2CEF819340E340077AF80 /* JumTexture.m in Sources */ = {isa = PBXBuildFile; fileRef = B6E2CEF619340E340077AF80 /* JumTexture.m */; };
+		B6E2CEF919341E220077AF80 /* SDLObjc.h in Headers */ = {isa = PBXBuildFile; fileRef = B6E2CEA01933E5670077AF80 /* SDLObjc.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,12 +46,20 @@
 		B6E2CE9D1933E5670077AF80 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		B6E2CE9F1933E5670077AF80 /* SDLObjc-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SDLObjc-Prefix.pch"; sourceTree = "<group>"; };
 		B6E2CEA01933E5670077AF80 /* SDLObjc.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SDLObjc.h; sourceTree = "<group>"; };
-		B6E2CEA11933E5670077AF80 /* SDLObjc.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SDLObjc.m; sourceTree = "<group>"; };
 		B6E2CEA71933E5670077AF80 /* SDLObjcTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SDLObjcTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B6E2CEA81933E5670077AF80 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		B6E2CEB01933E5670077AF80 /* SDLObjcTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SDLObjcTests-Info.plist"; sourceTree = "<group>"; };
 		B6E2CEB21933E5670077AF80 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		B6E2CEB41933E5670077AF80 /* SDLObjcTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SDLObjcTests.m; sourceTree = "<group>"; };
+		B6E2CEBE1933F15C0077AF80 /* JumWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JumWindow.h; path = ../JumWindow.h; sourceTree = "<group>"; };
+		B6E2CEBF1933F15C0077AF80 /* JumWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JumWindow.m; path = ../JumWindow.m; sourceTree = "<group>"; };
+		B6E2CEC21933F18E0077AF80 /* SDL2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SDL2.framework; path = /Library/Frameworks/SDL2.framework; sourceTree = "<absolute>"; };
+		B6E2CEC41933F30B0077AF80 /* JumRenderer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JumRenderer.h; path = ../JumRenderer.h; sourceTree = "<group>"; };
+		B6E2CEC51933F30B0077AF80 /* JumRenderer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JumRenderer.m; path = ../JumRenderer.m; sourceTree = "<group>"; };
+		B6E2CEC81934028E0077AF80 /* JumSurface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JumSurface.h; path = ../JumSurface.h; sourceTree = "<group>"; };
+		B6E2CEC91934028E0077AF80 /* JumSurface.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JumSurface.m; path = ../JumSurface.m; sourceTree = "<group>"; };
+		B6E2CEF519340E340077AF80 /* JumTexture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JumTexture.h; sourceTree = "<group>"; };
+		B6E2CEF619340E340077AF80 /* JumTexture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JumTexture.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +68,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B6E2CE941933E5670077AF80 /* Cocoa.framework in Frameworks */,
+				B6E2CEC31933F18E0077AF80 /* SDL2.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -89,6 +107,7 @@
 		B6E2CE921933E5670077AF80 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				B6E2CEC21933F18E0077AF80 /* SDL2.framework */,
 				B6E2CE931933E5670077AF80 /* Cocoa.framework */,
 				B6E2CEA81933E5670077AF80 /* XCTest.framework */,
 				B6E2CE951933E5670077AF80 /* Other Frameworks */,
@@ -109,8 +128,15 @@
 		B6E2CE991933E5670077AF80 /* SDLObjc */ = {
 			isa = PBXGroup;
 			children = (
+				B6E2CEBE1933F15C0077AF80 /* JumWindow.h */,
+				B6E2CEBF1933F15C0077AF80 /* JumWindow.m */,
+				B6E2CEC41933F30B0077AF80 /* JumRenderer.h */,
+				B6E2CEC51933F30B0077AF80 /* JumRenderer.m */,
+				B6E2CEF519340E340077AF80 /* JumTexture.h */,
+				B6E2CEF619340E340077AF80 /* JumTexture.m */,
+				B6E2CEC81934028E0077AF80 /* JumSurface.h */,
+				B6E2CEC91934028E0077AF80 /* JumSurface.m */,
 				B6E2CEA01933E5670077AF80 /* SDLObjc.h */,
-				B6E2CEA11933E5670077AF80 /* SDLObjc.m */,
 				B6E2CE9A1933E5670077AF80 /* Supporting Files */,
 			);
 			path = SDLObjc;
@@ -151,6 +177,11 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B6E2CEC01933F15C0077AF80 /* JumWindow.h in Headers */,
+				B6E2CEC61933F30B0077AF80 /* JumRenderer.h in Headers */,
+				B6E2CEF719340E340077AF80 /* JumTexture.h in Headers */,
+				B6E2CECA1934028E0077AF80 /* JumSurface.h in Headers */,
+				B6E2CEF919341E220077AF80 /* SDLObjc.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -165,6 +196,7 @@
 				B6E2CE8C1933E5670077AF80 /* Frameworks */,
 				B6E2CE8D1933E5670077AF80 /* Headers */,
 				B6E2CE8E1933E5670077AF80 /* Resources */,
+				B6E2CEFA19341F340077AF80 /* Run Script */,
 			);
 			buildRules = (
 			);
@@ -244,12 +276,32 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		B6E2CEFA19341F340077AF80 /* Run Script */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Run Script";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "pwd\ncp -r /Users/freddy/Library/Developer/Xcode/DerivedData/SDLObjc-dijwfuwsbwkqlgenyadnxbekquhj/Build/Products/Release/SDLObjc.framework /Library/Frameworks";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		B6E2CE8B1933E5670077AF80 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B6E2CEA21933E5670077AF80 /* SDLObjc.m in Sources */,
+				B6E2CEC71933F30B0077AF80 /* JumRenderer.m in Sources */,
+				B6E2CEC11933F15C0077AF80 /* JumWindow.m in Sources */,
+				B6E2CECB1934028E0077AF80 /* JumSurface.m in Sources */,
+				B6E2CEF819340E340077AF80 /* JumTexture.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -367,6 +419,10 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(LOCAL_LIBRARY_DIR)/Frameworks",
+				);
 				FRAMEWORK_VERSION = A;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SDLObjc/SDLObjc-Prefix.pch";
@@ -382,6 +438,10 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(LOCAL_LIBRARY_DIR)/Frameworks",
+				);
 				FRAMEWORK_VERSION = A;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SDLObjc/SDLObjc-Prefix.pch";
